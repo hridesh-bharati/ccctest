@@ -1,0 +1,60 @@
+body {
+  background: linear-gradient(to right, #efe0f1 2%, #d2ddf7 100%, #e0f1e4 1%);
+}
+.maincard {
+  position: relative;
+}
+.ccc-title {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+}
+.maincard .card {
+  height: 85vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.uname {
+  font-size: 2rem;
+}
+
+.uinfo {
+  position: relative;
+  top: 60px;
+  left: 0px;
+  right: 0px;
+  display: flex;
+  justify-content: baseline;
+  width: 100%;
+  font-size: 0.8rem;
+}
+
+.gdbg {
+  background: linear-gradient(to right, #efe0f1 2%, #d2ddf7 100%, #e0f1e4 1%);
+}
+.maincard {
+    padding: 20px;
+   }
+   .questions {
+    margin-top: 50px;
+    text-align: start;
+    width: 100%;
+  }
+@media screen and (max-width: 768px) {
+  .uinfo {
+    position: absolute;
+    top: 60px;
+    left: 6px;
+    right: 6px;
+  }
+  .maincard {
+   padding: 10px;
+  }
+  .questions {
+    margin-top: 0px;
+  }
+}
+
