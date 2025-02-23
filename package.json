@@ -1,6 +1,6 @@
 {
   "name": "ccc",
-  "homepage": "https://hridesh-bharati.github.io/ccctest/",  // 👈 Add this line
+  "homepage": "https://hridesh-bharati.github.io/ccctest/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
